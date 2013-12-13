@@ -1,0 +1,18 @@
+{
+  "name": "reqsolve",
+  "description": "require.path replacement",
+  "version": "0.0.1",
+  "author": {
+    "name": "Flemming Hansen",
+    "email": "gnimmelf@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gnimmelf/node-reqsolve"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  }
+}
+
