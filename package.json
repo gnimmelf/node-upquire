@@ -1,5 +1,5 @@
 {
-  "name": "reqsolve",
+  "name": "locuire",
   "description": "require.path replacement",
   "version": "0.0.1",
   "author": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gnimmelf/node-reqsolve"
+    "url": "git://github.com/gnimmelf/node-locuire"
   },
   "main": "index",
   "engines": {
