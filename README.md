@@ -1,5 +1,5 @@
  
-# Simple require.paths replacement
+# Simple require.paths alternative
 
 Avoids realative path backtracing. 
 
