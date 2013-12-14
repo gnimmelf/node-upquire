@@ -1,7 +1,7 @@
 {
   "name": "upquire",
   "description": "require.path replacement, traverses parent dirs to locate a module path and require it",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "author": {
     "name": "Flemming Hansen",
     "email": "gnimmelf@gmail.com"
