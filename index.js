@@ -7,8 +7,12 @@ function isModulePath(modulePath) {
           || fs.existsSync( modulePath+'.js' ) );  
 }
 
-module.exports = function(modulePath) {
+module.exports = function(modulePath) {  
   var basePath = path.dirname( callerId.getData().filePath );
+  if (basePath == '.') {
+    // We're in the repl(?)
+    var basePath = process.env.PWD;
+  } 
   var baseParts = basePath.split(path.sep);  
   while (baseParts.length && !isModulePath( path.join( basePath, modulePath ) ) ) {
     baseParts.pop();
