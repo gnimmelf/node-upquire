@@ -1,6 +1,6 @@
 # Simple require.paths alternative
 
-Avoids realative path backtracing. 
+Avoids relative path backtracing. 
 
 Traverses up the directory structure from the location of the file in which the call to `upquire` is made, and looks for the module path to `require` along the way. Returns the `require`'d if its path is found on one of the parent directories.
 
@@ -22,3 +22,5 @@ From app/lib-1/my-module-1
     require('upquire')('/lib-2/my-module-2')
     
  
+## NOTE
+Please, take a look at the code and give some feedback on smarter ways of doing this.
