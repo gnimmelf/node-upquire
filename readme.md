@@ -1,6 +1,6 @@
 # Simple require.paths alternative
 
-Avoids relative path backtracing. 
+Avoids relative path backtracking. 
 
 Traverses up the directory structure from the location of the file in which the call to `upquire` is made, and looks for the module path to `require` along the way. Returns the `require`'d if its path is found on one of the parent directories.
 
